@@ -1,0 +1,62 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.4.0/remixicon.css');
+
+.list-group-item .edit-text {
+    display: none;
+}
+
+.list-group-item:hover  .edit-text {
+    display: inline-block !important;
+}
+
+.badge {
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.modal-content, .card {
+    width: 100%;
+}
+
+.modal {
+}
+
+#add-cancel, #add-delete, #add-save {
+    display: none;
+}
+
+.card-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+}
+
+#pounter-presents {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px 0 0 0;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 5px 20px;
+    font-size: 15px;
+
+    text-decoration: none;
+    color: #000;
+    transition: .3s padding;
+    z-index: 1;
+}
+
+#pounter-presents:hover {
+    outline-style: solid;
+    outline-color: #fff;
+    /* padding: 5px 20px 5px 50px; */
+    padding: 5px 30px;
+}
